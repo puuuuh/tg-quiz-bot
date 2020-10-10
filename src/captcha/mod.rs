@@ -107,7 +107,7 @@ impl Captcha {
                             let mut msg = telegram_bot::SendMessage::new(chat.clone(), format!("Слыш. Нажми кнопку {}, а то ебло откушу", task));
                             msg.reply_markup(keyboard.clone());
 
-                            if let MessageOrChannelPost::Message(resp) = must_send(&api, msg).await {
+                            if let Some(MessageOrChannelPost::Message(resp)) = must_send(&api, msg).await {
                                 pending.insert(resp.id, UserCaptcha {user_id: user.id, chat_id: resp.chat.id(), date: tokio::time::Instant::now(), task});
                             }
                         };

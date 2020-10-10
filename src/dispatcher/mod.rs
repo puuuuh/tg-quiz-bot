@@ -127,7 +127,7 @@ impl Dispatcher {
         user: &UserId,
     ) {
         let get_member = telegram_bot::GetChatMember::new(chat, user);
-        let member = crate::utils::must_send(&self.api, get_member).await;
+        let member = crate::utils::must_send(&self.api, get_member).await.unwrap();
         if !matches!(
             member.status,
             ChatMemberStatus::Administrator | ChatMemberStatus::Creator
