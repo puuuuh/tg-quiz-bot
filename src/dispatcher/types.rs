@@ -1,4 +1,4 @@
-#[derive(Hash,PartialEq,Eq)]
+#[derive(Clone,Hash,PartialEq,Eq)]
 pub enum MessageKind {
     /// Text message.
     Text,
@@ -88,7 +88,7 @@ impl From<&telegram_bot::MessageKind> for MessageKind {
     }
 }
 
-#[derive(Hash, PartialEq, Eq)]
+#[derive(Clone, Hash, PartialEq, Eq)]
 pub enum UpdateKind {
     Message,
     EditedMessage,

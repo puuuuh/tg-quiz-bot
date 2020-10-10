@@ -6,6 +6,8 @@ mod quiz;
 mod dispatcher;
 mod utils;
 mod top;
+mod antimoon;
+mod captcha;
 pub(crate) mod markdown;
 pub(crate) mod users;
 
@@ -17,18 +19,24 @@ use std::sync::Arc;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
-    let token = env::var("TELEGRAM_BOT_TOKEN").expect("TELEGRAM_BOT_TOKEN not set");
+    let token = env::var("TELEGRAM_BOT_TOKEN");
     let users = Arc::new(Mutex::new(users::Users::new(env::var("USERS_DB").expect("USERS_DB not set")).unwrap()));
-    let api = Api::new(token);
+    let api = Api::new(token.unwrap());
 
-    let mut disp = dispatcher::Dispatcher::new();
+    let mut disp = dispatcher::Dispatcher::new(api.clone());
 
     let quiz = quiz::QuizModule::new(api.clone(), users.clone());
-    disp.add_subscriber(quiz);
+    disp.add_sub("quiz".to_string(), &quiz);
 
     let top = top::UserTopModule::new(api.clone(), users.clone());
-    disp.add_subscriber(top);
+    disp.add_sub("top".to_string(), &top);
+    
+    let antimoon = antimoon::Antimoon::new(api.clone());
+    disp.add_sub("antimoon".to_string(), &antimoon);
+    
+    let captcha = captcha::Captcha::new(api.clone());
+    disp.add_sub("captcha".to_string(), &captcha);
 
-    disp.start(api).await.unwrap();
+    disp.start().await.unwrap();
     Ok(())
 }

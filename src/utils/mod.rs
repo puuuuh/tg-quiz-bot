@@ -1,4 +1,4 @@
-use telegram_bot::{Request, Api, ResponseType};
+use telegram_bot::{Request, Api, ResponseType, UpdateKind, Message, MessageChat, ChatId, ChannelPost};
 use tokio::time::Duration;
 
 pub async fn must_send<Req: Request>(api: &Api, req: Req) -> <Req::Response as ResponseType>::Type {
@@ -15,3 +15,4 @@ pub async fn must_send<Req: Request>(api: &Api, req: Req) -> <Req::Response as R
         }
     }
 }
+

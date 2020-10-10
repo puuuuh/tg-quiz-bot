@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="efadffe7-1f7a-4748-8f85-3b7482f56f4e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/dispatcher/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/dispatcher/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dispatcher/types.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/dispatcher/types.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/mod.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="8efd2ccff8e521f0fbbae809685544bfa1368f9c" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="gol6vfav" />
+  </component>
+  <component name="ProjectId" id="1hQPp4AKfx6r2jwiVm7ZYha6vjj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/rdp/rdp-brute" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/quiz" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cargo.Run">
+    <configuration name="Bench tests::get_quest" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="bench --package quiz-bot --bin quiz-bot tests::get_quest -- --exact" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bench tests::getrandom" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="bench --package quiz-bot --bin quiz-bot tests::getrandom -- --exact" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package quiz-bot --bin quiz-bot" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs>
+        <env name="TELEGRAM_BOT_TOKEN" value="1148400014:AAG97c9H49SBfrpL0M9xaQ-8xd8Ck_1D4jI" />
+        <env name="QUESTER_DB" value="$PROJECT_DIR$/../quest-parser/mydatabase.db" />
+        <env name="USERS_DB" value="$PROJECT_DIR$/../quest-parser/users.db" />
+      </envs>
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="sha256:d38fbf60a0145a933192dd9e27447bde6cd9e4503efe3d4e2626eac99d2ee286" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="puuuh/quiz-bot:0.0.4" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Cargo.Bench tests::get_quest" />
+      <item itemvalue="Cargo.Bench tests::getrandom" />
+      <item itemvalue="Cargo.Run" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Bench tests::getrandom" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="explicitPathToStdlib" value="$USER_HOME$/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust" />
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efadffe7-1f7a-4748-8f85-3b7482f56f4e" name="Default Changelist" comment="" />
+      <created>1599940521706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599940521706</updated>
+      <workItem from="1599940522924" duration="42268000" />
+      <workItem from="1600028786862" duration="9159000" />
+      <workItem from="1600099171726" duration="611000" />
+      <workItem from="1600117171909" duration="605000" />
+      <workItem from="1600118135105" duration="10755000" />
+      <workItem from="1600197566480" duration="5534000" />
+      <workItem from="1600243798540" duration="5000" />
+      <workItem from="1600510958657" duration="15120000" />
+      <workItem from="1600542981955" duration="1564000" />
+      <workItem from="1600605432630" duration="8000" />
+      <workItem from="1600631688444" duration="8650000" />
+      <workItem from="1600684068530" duration="3206000" />
+      <workItem from="1600802346491" duration="874000" />
+      <workItem from="1601127065252" duration="45000" />
+      <workItem from="1601330306450" duration="538000" />
+      <workItem from="1601331002619" duration="1118000" />
+      <workItem from="1601806877684" duration="6000" />
+      <workItem from="1601919683864" duration="26000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1600802424632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600802424632</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add .gitignore">
+      <created>1600802526460</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600802526460</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1114" y="315" width="310" height="330" key="#Docker_Registry" timestamp="1600121357945">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1114" y="315" width="310" height="330" key="#Docker_Registry/0.0.2560.1080@0.0.2560.1080" timestamp="1600121357945" />
+    <state x="1077" y="406" width="395" height="192" key="#Push_Image" timestamp="1600121359486">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1077" y="406" width="395" height="192" key="#Push_Image/0.0.2560.1080@0.0.2560.1080" timestamp="1600121359486" />
+    <state x="895" y="375" width="760" height="254" key="#Rust" timestamp="1601330325411">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="895" y="375" width="760" height="254" key="#Rust/0.0.2560.1080@0.0.2560.1080" timestamp="1601330325411" />
+    <state x="718" y="-58" width="1076" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601331367950">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="718" y="-58" width="1076" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1601331367950" />
+    <state x="1080" y="163" width="378" height="550" key="#com.intellij.ide.util.MemberChooser" timestamp="1600514220173">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1080" y="163" width="378" height="550" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1080@0.0.2560.1080" timestamp="1600514220173" />
+    <state x="900" y="50" width="749" height="840" key="CommitChangelistDialog2" timestamp="1600802526406">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="900" y="50" width="749" height="840" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1600802526406" />
+    <state x="1134" y="155" width="258" height="438" key="EnvironmentVariablesDialog" timestamp="1600514672080">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1134" y="155" width="258" height="438" key="EnvironmentVariablesDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1600514672080" />
+    <state x="1051" y="186" width="428" height="472" key="FileChooserDialogImpl" timestamp="1601919707848">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1051" y="186" width="428" height="472" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1601919707848" />
+    <state width="1874" height="534" key="GridCell.Tab.0.bottom" timestamp="1601336398601">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="534" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601336398601" />
+    <state width="2514" height="534" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1601331377484" />
+    <state width="1874" height="534" key="GridCell.Tab.0.center" timestamp="1601336398601">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="534" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601336398601" />
+    <state width="2514" height="534" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1601331377483" />
+    <state width="1874" height="534" key="GridCell.Tab.0.left" timestamp="1601336398600">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="534" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601336398600" />
+    <state width="2514" height="534" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1601331377483" />
+    <state width="1874" height="534" key="GridCell.Tab.0.right" timestamp="1601336398601">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="534" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601336398601" />
+    <state width="2514" height="534" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1601331377483" />
+    <state width="1874" height="534" key="GridCell.Tab.1.bottom" timestamp="1601336398602">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="534" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601336398602" />
+    <state width="2514" height="534" key="GridCell.Tab.1.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1601331378307" />
+    <state width="1874" height="534" key="GridCell.Tab.1.center" timestamp="1601336398601">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="534" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601336398601" />
+    <state width="2514" height="534" key="GridCell.Tab.1.center/0.0.2560.1080@0.0.2560.1080" timestamp="1601331378306" />
+    <state width="1874" height="534" key="GridCell.Tab.1.left" timestamp="1601336398601">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="534" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601336398601" />
+    <state width="2514" height="534" key="GridCell.Tab.1.left/0.0.2560.1080@0.0.2560.1080" timestamp="1601331378306" />
+    <state width="1874" height="534" key="GridCell.Tab.1.right" timestamp="1601336398601">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="534" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601336398601" />
+    <state width="2514" height="534" key="GridCell.Tab.1.right/0.0.2560.1080@0.0.2560.1080" timestamp="1601331378307" />
+    <state x="772" y="63" key="SettingsEditor" timestamp="1601331506874">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="772" y="63" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1601331506874" />
+    <state x="878" y="234" key="Vcs.Push.Dialog.v2" timestamp="1600802503697">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="878" y="234" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1600802503697" />
+    <state x="1102" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600802455436">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1102" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1080@0.0.2560.1080" timestamp="1600802455436" />
+    <state x="990" y="280" width="579" height="488" key="find.popup" timestamp="1600523794292">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="990" y="280" width="579" height="488" key="find.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1600523794292" />
+    <state x="1082" y="404" width="385" height="164" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600802612467">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1082" y="404" width="385" height="164" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1600802612467" />
+    <state x="302" y="242" key="run.anything.popup" timestamp="1600122708894">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="302" y="242" key="run.anything.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1600122708894" />
+    <state x="943" y="224" width="672" height="678" key="search.everywhere.popup" timestamp="1600641510557">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="943" y="224" width="672" height="678" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1600641510557" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.rs</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

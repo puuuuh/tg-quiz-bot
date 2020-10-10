@@ -1,0 +1,16 @@
+[package]
+name = "quiz-bot"
+version = "0.1.0"
+authors = ["puh <->"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rusqlite = "0.24.0"
+fallible-iterator = "0.2.0"
+lazy_static = "1.4.0"
+rand = "0.7.3"
+telegram-bot = { git = "https://github.com/puuuuh/telegram-bot", branch = "feature/restrict-member" }
+tokio = { version = "0.2.22", features = ["full", "tracing"] }
+async-trait = "0.1.40"
