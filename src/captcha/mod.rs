@@ -100,7 +100,10 @@ impl Captcha {
                     if let Some(Message { chat, kind: MessageKind::NewChatMembers {data, ..}, ..}) = msg {
                         for user in data {
                             let restrict_msg = telegram_bot::RestrictChatMember::new(chat.clone(), user.id, deny_permissions.clone());
-                            must_send(&api, restrict_msg).await;
+                            if must_send(&api, restrict_msg).await.is_none() {
+                                must_send(&api, telegram_bot::SendMessage::new(chat.clone(), "Когда мне тяжело, я всегда напоминаю себе о том, что если я сдамся – лучше не станет. А потом перестаю пытаться.")).await;
+                                continue;
+                            };
                             
                             let task = (rng.gen::<u8>() % 9) + 1;
 
